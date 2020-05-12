@@ -16,9 +16,9 @@
 
 For example:
 a = Matrix([[2, 3, 1], [1, 2, 3]], [[1, 5, 6], [1, 0, 2]])
-# For addition of matrices.
+For addition of matrices.
 a.add()
-# For subtraction of matrices.
+For subtraction of matrices.
 a.sub()
-# To graph the vectors.
+To graph the vectors.
 a.graph('operation name: add/sub/mult etc')
