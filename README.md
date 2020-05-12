@@ -24,4 +24,7 @@ a.add()
 a.sub()
 ### To graph the vectors.
 a.graph('operation name: add/sub/mult etc')
+### To get determinant.
+a.det()
+For the graph of determinant, a.det('True')
 
