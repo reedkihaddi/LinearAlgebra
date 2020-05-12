@@ -1,5 +1,7 @@
 # LinearAlgebra
 
+This is a work in progress. Will keep adding more stuff related to Linear Algebra.
+
 ## Calculate determinants in R2 space.
 ![image](https://github.com/reedkihaddi/LinearAlgebra/blob/master/Files/det0.png)
 ![image](https://github.com/reedkihaddi/LinearAlgebra/blob/master/Files/det1.png)
@@ -14,11 +16,12 @@
 ![image](https://github.com/reedkihaddi/LinearAlgebra/blob/master/Files/mult0.png)
 ![image](https://github.com/reedkihaddi/LinearAlgebra/blob/master/Files/mult1.png)
 
-For example:
+### For example:
 a = Matrix([[2, 3, 1], [1, 2, 3]], [[1, 5, 6], [1, 0, 2]])
-For addition of matrices.
+### For addition of matrices.
 a.add()
-For subtraction of matrices.
+### For subtraction of matrices.
 a.sub()
-To graph the vectors.
+### To graph the vectors.
 a.graph('operation name: add/sub/mult etc')
+
