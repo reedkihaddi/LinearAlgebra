@@ -31,6 +31,16 @@ class Matrix:
         self.__init__(x)
         result = np.linalg.det(self.x)
         return "%.2f" % round(result, 2)
+        
+    def trans(self,x):
+        self.__init__(x)
+        result=np.transpose(x)
+        return result
+
+    def inv(self,x):
+        self.__init__(x)
+        result=np.linalg.inv(x)
+        return result 
 
 matrix = Matrix()
 x1 = [[1, 2], [3, 0]]
