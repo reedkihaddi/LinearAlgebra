@@ -4,20 +4,18 @@ import graph
 
 class Matrix:
 
-    def __init__(self, x=None, y=None, z=None):
+    def __init__(self, x=None, y=None):
         if x is not None:
             self.x = x
         if y is not None:
             self.y = y
-        if z is not None:
-            self.z = z
 
-    def add(self, x, y, z=None):
+    def add(self, x, y):
         self.__init__(x, y, z)
         result = np.add(self.x, self.y)
         return result
 
-    def sub(self, x, y, z=None):
+    def sub(self, x, y):
         self.__init__(x, y, z)
         result = np.subtract(self.x, self.y)
         return result
@@ -43,7 +41,7 @@ class Matrix:
         return result 
 
 matrix = Matrix()
-x1 = [[1, 2], [3, 0]]
-x2 = [[1, 3], [2, 3]]
-x3 = matrix.add(x1, x2)
-print(x3)
+# x1 = [[1, 2], [3, 0]]
+# x2 = [[1, 3], [2, 3]]
+# x3 = matrix.add(x1, x2)
+# print(x3)
